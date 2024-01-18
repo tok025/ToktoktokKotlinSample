@@ -1,0 +1,2 @@
+rootProject.name = "TOKTOKTOK-KOTLIN-SAMPLE"
+include ':app'
