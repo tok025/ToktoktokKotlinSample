@@ -45,11 +45,11 @@ class ProgrammaticMainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        TokTokTok.startFabAnimation(this, fabTokTokTok)
+        fabTokTokTok.startFabAnimation()
     }
 
     override fun onPause() {
         super.onPause()
-        TokTokTok.stopFabAnimation()
+        fabTokTokTok.stopFabAnimation()
     }
 }
